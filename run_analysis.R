@@ -94,8 +94,9 @@ datasummary[,68] <- factor(datasummary[,68])
 ##Apply the levels in activity_labels 
 levels(datasummary[,68]) <- activity_labels[,2]
 
-##Write the output file to "summary.csv"
-write.csv(datasummary, "summary.csv")
+##Write the output file to "summary.txt"
+write.table(datasummary, "summary.txt")
+
 
 
 

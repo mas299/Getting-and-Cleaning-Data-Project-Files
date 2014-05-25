@@ -1,6 +1,6 @@
 ## Data
 
-The file "run_analysis.R" runs scripts that transform the data contained in the UCI Machine Learning repository.  The following data files are loaded into R and transformed and summarized in the "summarydata.csv" output file: 
+The file "run_analysis.R" runs scripts that transform the data contained in the UCI Machine Learning repository.  The following data files are loaded into R and transformed and summarized in the ""summary.txt"" output file: 
 
 * x_test.txt
 * y_train.txt
@@ -13,7 +13,7 @@ The file "run_analysis.R" runs scripts that transform the data contained in the 
 
 ## Data Transformations 
 
-The following steps were taken to transform the basic data into a tidy, summarized data set ("summary.csv").
+The following steps were taken to transform the basic data into a tidy, summarized data set ("summary.txt").
 
 ### Step 1 - read in and name each of the data sets that will be manipulated
 
@@ -48,11 +48,11 @@ Only the mean() and std() varaibles, since meanFreq() and the means associated w
 
 * First, convert the Activity column to factors
 * Then, apply the levels in activity_labels 
-* Writes the output file to "summary.csv"
+* Writes the output file to "summary.txt"
 
 ## Data
 
-The results of the above data transformations contains a data set with three types of variables described below ("summary.csv"). 
+The results of the above data transformations contains a data set with three types of variables described below ("summary.txt"). 
 
 ### Type 1: Averages of Standard Deviation and Mean Measurements
 
